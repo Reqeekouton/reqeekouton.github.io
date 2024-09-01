@@ -44,7 +44,7 @@
 
 @font-face {
     font-family: 'Source Han Serif SC';
-    src: url('/public/fonts/SourceHanSerifSC-VF.ttf') format('ttf'),
+    src: url('/public/fonts/SourceHanSerif-VF.otf.woff2') format('woff2'),
     font-weight: bold;
     font-style: normal;
 }
