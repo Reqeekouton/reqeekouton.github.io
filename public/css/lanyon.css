@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
  * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
  */
 
-/* Style and "hide" the sidebar */
+/* Sidebar styles */
 .sidebar {
   position: fixed;
   top: 0;
@@ -162,17 +162,40 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Source Han Serif', serif; /* 使用思源宋体 */
   font-size: .875rem; /* 15px */
-  color: rgba(255,255,255,.6);
+  color: rgba(255, 255, 255, .6);
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
+
+/* Adjust font size for larger screens */
 @media (min-width: 30em) {
   .sidebar {
     font-size: .75rem; /* 14px */
   }
+}
+
+/* Profile section */
+.profile {
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: .5rem;
+}
+
+.profile-name {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0;
 }
 
 /* Sidebar content */
@@ -189,29 +212,37 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Sidebar nav */
 .sidebar-nav {
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 .sidebar-nav-item {
   display: block;
   padding: .5rem 1rem;
-  border-top: 1px solid rgba(255,255,255,.1);
+  border-top: 1px solid rgba(255, 255, 255, .1);
 }
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, .1);
   border-color: transparent;
 }
 
-@media (min-width: 48em) {
-  .sidebar-item {
-    padding: 1.5rem;
-  }
-  .sidebar-nav-item {
-    padding-left:  1.5rem;
-    padding-right: 1.5rem;
-  }
+/* Social media links */
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.social-links li {
+  margin-bottom: .5rem;
+}
+.social-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Source Han Serif', serif; /* 使用思源宋体 */
+}
+.social-link:hover {
+  text-decoration: underline;
 }
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
@@ -272,10 +303,10 @@ a.sidebar-nav-item:focus {
 
 /* Slide effect
  *
- * Handle the sliding effects of the sidebar and content in one spot, seperate
+ * Handle the sliding effects of the sidebar and content in one spot, separate
  * from the default styles.
  *
- * As an a heads up, we don't use `transform: translate3d()` here because when
+ * As a heads up, we don't use `transform: translate3d()` here because when
  * mixed with `position: fixed;` for the sidebar toggle, it creates a new
  * containing block. Put simply, the fixed sidebar toggle behaves like
  * `position: absolute;` when transformed.
@@ -307,6 +338,7 @@ a.sidebar-nav-item:focus {
       -ms-transform: translateX(14rem);
           transform: translateX(14rem);
 }
+
 
 
 /*
