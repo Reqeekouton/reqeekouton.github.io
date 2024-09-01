@@ -65,33 +65,39 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 /*HOME*/
-
 .post-item {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
-  padding: 16px;
-  margin-bottom: 20px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #fff; 
+  border: 2px solid #ddd; 
+  border-radius: 8px; /
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 16px; 
+  margin-bottom: 20px; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  cursor: pointer; 
 }
 
-
 .post-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.post-link {
+  text-decoration: none;
 }
 
 
 .post-item h3 {
   margin-top: 0;
-  font-family: 'Source Han Serif SC', serif; /* 使用思源宋体 */
+  font-family: 'Source Han Serif SC', serif; 
+  color: #333;
 }
 
 
 .post-item p {
-  font-family: 'FangSong', serif; /* 使用仿宋体 */
-  color: #666;
+  font-family: 'FangSong', serif; 
+  color: #666; 
 }
+
 
 
 /*
