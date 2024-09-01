@@ -1,38 +1,31 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
+<!-- 这个复选框用于控制侧栏的显示和隐藏 -->
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
+	
 <div class="sidebar" id="sidebar">
+
+  <!-- 个人信息部分，包括头像和昵称 -->
+  <div class="sidebar-item profile">
+    <img src="{{ '/assets/images/avatar.png' | absolute_url }}" alt="头像" class="profile-avatar"> 
+    <h4 class="profile-name">任亚墨</h2> 
+  </div>
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
 
+  <!-- Navigation menu -->
+  <!-- 导航菜单，包含主页、其他页面链接 -->
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
-
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
+    <!-- Additional pages -->
+    <!-- 生成其他页面的链接 -->
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-        {% endif %}
+      {% if node.title != null and node.url != '/about' %}
+        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">
+          {{ node.title }}
+        </a>
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+   
   </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
-  </div>
 </div>
