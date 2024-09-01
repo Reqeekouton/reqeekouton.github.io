@@ -5,11 +5,11 @@ layout: default
 <div class="content">
   <ul>
     {% for post in site.posts %}
-      
+      <div class="post-item>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <p>{{ post.date | date: "%Y年%m月%d日" }}</p>
         <p>{{ post.excerpt | strip_html | truncate: 20 }}</p>
-      
+      </div>
     {% endfor %}
   </ul>
 </div>
