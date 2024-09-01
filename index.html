@@ -7,9 +7,11 @@ title: 主页
   
     {% for post in site.posts %}
       
-       <h3> <a href="{{ post.url | relative_url }}">{{ post.title }}</a> </h3>
+    <div class="post-item" onclick="window.location='{{ post.url | relative_url }}'">
+        <h3>{{ post.title }}</h3>
         <p>{{ post.date | date: "%Y年%m月%d日" }}</p>
-        <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+        <p>{{ post.excerpt | strip_html | truncate: 35 }}</p>
+      </div>
       
     {% endfor %}
   
