@@ -41,25 +41,25 @@
     font-weight: normal;
     font-style: normal;
 }
-
+/*
 @font-face {
     font-family: 'Source Han Serif SC';
     src: url('/public/fonts/SourceHanSerif-VF.ttf.woff2') format('woff2');
     font-weight: normal; 
     font-style: normal;
 }
-
+*/
 html,
 body {
   overflow-x: hidden;
 }
 
 html {
-  font-family:"Source Han Serif SC", "FangSong", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family:"FangSong", "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Han Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-item h3 {
   margin-top: 0;
-  font-family: 'Source Han Serif SC', serif; 
+  font-family: 'FangSong', serif; 
   color: #333;
 }
 
