@@ -37,29 +37,29 @@
 /* Prevent scroll on narrow devices */
 @font-face {
     font-family: 'FangSong';
-    src: url('/public/fonts/Fangsong_GB2312.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@91f4d12bd2c52ee1329b1c08b1f97692eb02030f/public/fonts/Fangsong_GB2312.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-/*
+
 @font-face {
-    font-family: 'Source Han Serif SC';
-    src: url('/public/fonts/SourceHanSerif-VF.ttf.woff2') format('woff2');
+    font-family: 'SourceHanSerifSC';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@7fa06acf96e703e0f1d7668181d2ebec8aa067ea/public/fonts/SourceHanSerif-VF.otf.woff2') format('woff2');
     font-weight: normal; 
     font-style: normal;
 }
-*/
+
 html,
 body {
   overflow-x: hidden;
 }
 
 html {
-  font-family:"FangSong", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family:"SourceHanSerifSC", "FangSong", "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "SourceHanSerifSC", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-item h3 {
   margin-top: 0;
-  font-family: 'FangSong', serif; 
+  font-family: 'SourceHanSerifSC', serif; 
   color: #333;
 }
 
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 .wrap {
   position: relative;
   width: 100%;
-  font-family: "Source Han Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "SourceHanSerifSC", "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
 }
 
 
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "SourceHanSerifSC", "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -365,11 +365,12 @@ a.sidebar-nav-item:focus {
 .post-title,
 .post-title a {
   color: #303030;
-  font-family: "Source Han Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
 }
 .page-title,
 .post-title {
   margin-top: 0;
+  font-family: "SourceHanSerifSC", "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 /* Meta data line below post title */
