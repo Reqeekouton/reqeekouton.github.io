@@ -19,7 +19,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Permalink 设置
-permalink: /:categories/:title.html
+permalink: /:categories/:title.md
 
 # 文件处理
 exclude: 
@@ -36,15 +36,3 @@ plugins:
 custom:
   github_repo: "https://github.com/Reqeekouton/reqeekouton.github.io" # GitHub 仓库链接
   version: "0.0.1-alpha" # 站点或项目的版本号
-
-# 表情符号支持
-jemoji:
-  # 在此添加更多配置选项，例如设置自定义表情符号
-  # 例如，可以配置自定义表情符号映射
-
-# 其他配置
-defaults:
-  - scope:
-      path: "" # 默认配置适用于所有页面
-    values:
-      layout: default # 默认布局设置为 default
