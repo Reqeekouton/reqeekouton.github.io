@@ -37,14 +37,14 @@
 /* Prevent scroll on narrow devices */
 @font-face {
     font-family: 'FangSong';
-    src: url('/public/fonts/Fangsong_GB2312.ttg') format('ttf'),
+    src: url('/public/fonts/Fangsong_GB2312.ttf') format('ttf'),
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Source Han Serif SC';
-    src: url('/public/fonts/SourceHanSerif-VF.otf.woff2') format('woff2'),
+    src: url('/public/fonts/SourceHanSerif-VF.ttf.woff2') format('woff2'),
     font-weight: bold;
     font-style: normal;
 }
