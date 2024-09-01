@@ -22,14 +22,8 @@ highlighter: rouge
 permalink: /:categories/:title.html
 
 # 文件处理
-exclude:
-  - Gemfile
-  - Gemfile.lock
+exclude: 
   - README.md
-  - public
-  - node_modules
-  - .gitignore
-  - .jekyll-cache
 
 # 插件配置
 plugins:
