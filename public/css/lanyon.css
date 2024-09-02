@@ -67,7 +67,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "SongTi", "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 350;
   color: #313131;
   letter-spacing: -.025rem;
 }
@@ -108,7 +108,28 @@ h1, h2, h3, h4, h5, h6 {
   color: #666; 
 }
 
+.page-title{
+	text-align:center;
+	}
+	
+del{
+	text-decoration-thickness: 1px;
+	}
+	
+.post hr{
+	borer: 0; 
+    height: 2px; 
+    background: #333;
+    }
+    
+ .post-tags a {
+  color: #007acc; 
+  text-decoration: none; 
+}
 
+.post-tags a:hover {
+  text-decoration: underline; 
+}
 
 /*
  * Wrapper
