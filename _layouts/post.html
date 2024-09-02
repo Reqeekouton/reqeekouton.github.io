@@ -8,8 +8,15 @@ layout: default
  <hr>
   <div class="post-content">
     {{ content }}
+    <details markdown='1'><summary>作品信息</summary>
+    <blockquote>
+    作品发布于：{{ post.date | date: "%Y年%m月%d日" }}，作者：{% if page.author %}作者: {{ page.author }}{% endif %}。
+
+    </blockquote>
+</details>
+    
   </div>
-  <hr>
+  
   {% if page.tags %}
   <div class="post-tags">
     <span>标签：</span>
@@ -21,20 +28,24 @@ layout: default
 {% endif %}
 </div>
 
-{% if site.related_posts.size >= 1 %}
-<div class="related">
-  <h2 class="related-title">Related posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="post-nav">
+  <div class="nav-item">
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    {% else %}
+      <span>无</span>
+    {% endif %}
+  </div>
+
+  <div class="nav-item current-title">
+    <span>{{ page.title }}</span>
+  </div>
+
+  <div class="nav-item">
+    {% if page.next %}
+      <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+    {% else %}
+      <span>无</span>
+    {% endif %}
+  </div>
 </div>
-{% endif %}
