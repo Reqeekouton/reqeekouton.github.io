@@ -31,6 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-tagging
 
 # 自定义变量
 custom:
