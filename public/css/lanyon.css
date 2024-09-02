@@ -67,7 +67,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "SongTi", "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 350;
+  font-weight: 150;
   color: #313131;
   letter-spacing: -.025rem;
 }
@@ -108,10 +108,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #666; 
 }
 
-.page-title{
+.page-title
+.post-title {
 	text-align:center;
 	}
 	
+.post-tags{
+	font-family: "KaiTi", "PT Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.75em;
+	}
 del{
 	text-decoration-thickness: 1px;
 	}
