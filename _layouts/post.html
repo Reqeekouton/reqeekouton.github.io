@@ -33,7 +33,7 @@ layout: default
     {% if page.previous %}
       <a href="{{ page.previous.url }}"> <<{{ page.previous.title }} |</a>
     {% else %}
-      <span>无</span>
+      <span> <<无 | </span>
     {% endif %}
   </div>
 
@@ -45,7 +45,7 @@ layout: default
     {% if page.next %}
       <a href="{{ page.next.url }}"> {{ page.next.title }}>> </a>
     {% else %}
-      <span>无</span>
+      <span> 无>> </span>
     {% endif %}
   </div>
 </div>
