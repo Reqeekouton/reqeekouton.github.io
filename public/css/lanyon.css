@@ -148,12 +148,12 @@ div.blockquote{
 }
 
 .nav-item {
-  margin: 0 2px; /* 调整左右间距 */
+  margin: 2px;
 }
 
 .current-title {
   flex-grow: 1;
-  text-align: center; /* 居中显示标题 */
+  text-align: center; 
 }
 
 
