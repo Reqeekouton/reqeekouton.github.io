@@ -31,8 +31,17 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-tagging
+  - jekyll-archives
 
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+    
 # 自定义变量
 custom:
   github_repo: "https://github.com/Reqeekouton/reqeekouton.github.io" # GitHub 仓库链接
