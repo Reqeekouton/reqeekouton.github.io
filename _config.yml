@@ -31,16 +31,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-archives
+  - jekyll-tagging
 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+tag_page_layout: tag_page
+tag_page_dir: tag
     
 # 自定义变量
 custom:
