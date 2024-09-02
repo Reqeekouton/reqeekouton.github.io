@@ -4,13 +4,13 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  
  <hr>
   <div class="post-content">
     {{ content }}
     <details markdown='1'><summary>作品信息</summary>
     <blockquote>
-    作品发布于：{{ post.date | date: "%Y年%m月%d日" }}，作者：{% if page.author %}作者: {{ page.author }}{% endif %}。
+    作品发布于：{{ page.date | date: "%Y年%m月%d日" }}，作者：{% if page.author %}作者: {{ page.author }}{% endif %}。
 
     </blockquote>
 </details>
@@ -31,19 +31,19 @@ layout: default
 <div class="post-nav">
   <div class="nav-item">
     {% if page.previous %}
-      <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+      <a href="{{ page.previous.url }}"> <<{{ page.previous.title }} |</a>
     {% else %}
       <span>无</span>
     {% endif %}
   </div>
 
   <div class="nav-item current-title">
-    <span>{{ page.title }}</span>
+    <span>{{ page.title }} |</span>
   </div>
 
   <div class="nav-item">
     {% if page.next %}
-      <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+      <a href="{{ page.next.url }}"> {{ page.next.title }}>> </a>
     {% else %}
       <span>无</span>
     {% endif %}
