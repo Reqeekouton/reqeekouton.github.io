@@ -134,6 +134,28 @@ del{
 .post-tags a:hover {
   text-decoration: underline; 
 }
+div.blockquote{
+  border:1px dashed #999;
+  background-color:#f4f4f4;
+  padding:0 1em;
+  margin:1em 3em
+}
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px; /* 调整左右间距 */
+}
+
+.current-title {
+  flex-grow: 1;
+  text-align: center; /* 居中显示标题 */
+}
+
 
 /*
  * Wrapper
