@@ -143,18 +143,16 @@ div.blockquote{
 
 .post-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10px; /* 控制各元素之间的间距 */
 }
 
-.nav-item {
-  margin: 2px;
+.post-nav a, .post-nav span {
+  margin: 0;
+  padding: 0;
 }
 
-.current-title {
-  flex-grow: 1;
-  text-align: center; 
-}
 
 
 /*
