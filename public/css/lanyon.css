@@ -145,7 +145,8 @@ div.blockquote{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px; /* 控制各元素之间的间距 */
+  gap: 5px; /* 控制各元素之间的间距 */
+  font-size: 0.75em
 }
 
 .post-nav a, .post-nav span {
