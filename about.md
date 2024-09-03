@@ -19,4 +19,6 @@ title: 关于
 
 是用作发布一些作品与……额……设定之类的地方，偶尔会发布一些日常。
 
-主题用的是[Lanyon](https://github.com/poole/lanyon)，后续可能会魔改。
+主题用的是[Lanyon](https://github.com/poole/lanyon)，~~后续可能会魔改~~ 开学了，这个就慢慢来吧（指魔改）。
+
+字体用的是仿宋、宋体与楷体。
