@@ -19,7 +19,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Permalink 设置
-permalink: /:categories/:title
+permalink: /:title
 
 # 文件处理
 exclude: 
