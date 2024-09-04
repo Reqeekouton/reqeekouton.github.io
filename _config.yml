@@ -19,7 +19,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Permalink 设置
-permalink: /:title
+permalink: /:categories/:title
 
 # 文件处理
 exclude: 
@@ -31,7 +31,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-archives:
+  - jekyll-archives
+
+jekyll-archives:
   enabled: [tags]
   layout: 
     tag: tag
