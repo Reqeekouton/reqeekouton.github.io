@@ -31,10 +31,14 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-tagging
+  - jekyll-archives:
+  enabled: [tags]
+  layout: 
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
 
-tag_page_layout: tag_page
-tag_page_dir: tag
+
     
 # 自定义变量
 custom:
