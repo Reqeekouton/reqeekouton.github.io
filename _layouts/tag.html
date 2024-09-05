@@ -2,7 +2,8 @@
 layout: default
 ---
 
-  <h2>{{ page.title }}</h1>
+  <h2>有标签{{ page.title }}的页面：</h2>
+
   <ul>
     {% for post in page.posts %}
       <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></a></li>
