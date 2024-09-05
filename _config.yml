@@ -34,11 +34,12 @@ plugins:
   - jekyll-archives
 
 jekyll-archives:
-  enabled: [tags]
+  enabled:
+    - tags
   layout: 
     tag: tag
   permalinks:
-    tag: /tags/:name/
+    tag: /tag/:name/
 
 
     
