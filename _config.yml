@@ -32,6 +32,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-paginate
 
 jekyll-archives:
   enabled:
@@ -41,7 +42,8 @@ jekyll-archives:
   permalinks:
     tag: /tag/:name/
 
-
+paginate: 1
+paginate_path: "/page:num/"
     
 # 自定义变量
 custom:
