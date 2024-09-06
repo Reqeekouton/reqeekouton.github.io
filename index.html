@@ -20,7 +20,7 @@ title: 主页
     <a href="{{ paginator.previous_page_path | relative_url }}"><<</a>
   {% else %}
     {% if paginator.page == 1 %}
-      <a href="{{ '/page/' | append: paginator.total_pages | relative_url }}"><<</a>
+      <a href="{{ '/page' | append: paginator.total_pages | relative_url }}"><<</a>
     {% else %}
       <a href="{{ paginator.total_pages | relative_url }}"><<</a>
     {% endif %}
