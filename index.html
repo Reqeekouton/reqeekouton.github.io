@@ -16,20 +16,17 @@ title: 主页
   <hr>
   	
   <div class="pagination">
-  	
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}"><<</a>
-    {% else %}
-      <a href="{{ paginator.total_pages | relative_url }}"><<</a>
-    {% endif %}
-    
-    <span>[{{ paginator.page }}/{{ paginator.total_pages }}]</span>
-    
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}">>></a>
-    {% else %}
-      <a href="{{ '/' | relative_url }}">>></a>
-    {% endif %}
-  </div>
-
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}"><<</a>
+  {% else %}
+    <a href="{{ paginator.total_pages | relative_url }}"><<</a>
+  {% endif %}
+  
+  <span>[{{ paginator.page }}/{{ paginator.total_pages }}]</span>
+  
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">>></a>
+  {% else %}
+    <a href="{{ '/' | relative_url }}">>></a>
+  {% endif %}
 </div>
