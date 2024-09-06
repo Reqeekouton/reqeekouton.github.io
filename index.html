@@ -12,10 +12,10 @@ title: 主页
       <p>{{ post.excerpt | strip_html | truncate: 35 }}</p>
     </div>
   {% endfor %}
-  
+
   <hr>
-  	
-<div class="pagination">
+
+  <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}"><<</a>
   {% else %}
