@@ -42,7 +42,7 @@ jekyll-archives:
   permalinks:
     tag: /tag/:name/
 
-paginate: 1
+paginate: 5
 paginate_path: "/page:num/"
     
 # 自定义变量
