@@ -15,11 +15,15 @@ title: 主页
 
   <hr>
 
-  <div class="pagination">
+<div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}"><<</a>
   {% else %}
-    <a href="{{ paginator.page == 1 ? paginator.total_pages | relative_url : paginator.previous_page_path | relative_url }}"><<</a>
+    {% if paginator.page == 1 %}
+      <a href="{{ '/page/' | append: paginator.total_pages | relative_url }}"><<</a>
+    {% else %}
+      <a href="{{ paginator.total_pages | relative_url }}"><<</a>
+    {% endif %}
   {% endif %}
   
   <span>[{{ paginator.page }}/{{ paginator.total_pages }}]</span>
