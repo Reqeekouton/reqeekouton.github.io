@@ -14,7 +14,7 @@ title: 主页
   {% endfor %}
 
   <hr>
-
+{% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}"><<</a>
@@ -25,7 +25,7 @@ title: 主页
       <a href="{{ paginator.total_pages | relative_url }}"><<</a>
     {% endif %}
   {% endif %}
-  
+        
   <span>[{{ paginator.page }}/{{ paginator.total_pages }}]</span>
   
   {% if paginator.next_page %}
@@ -34,3 +34,4 @@ title: 主页
     <a href="{{ '/' | relative_url }}">>></a>
   {% endif %}
 </div>
+{% endif %}
