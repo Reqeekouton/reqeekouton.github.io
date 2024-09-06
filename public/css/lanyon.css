@@ -154,7 +154,10 @@ div.blockquote{
   padding: 0;
 }
 
-
+.pagination{
+	font-family: "KaiTi", "PT Sans", Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+}
 
 /*
  * Wrapper
