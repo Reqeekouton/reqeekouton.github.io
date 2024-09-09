@@ -159,6 +159,22 @@ div.blockquote{
 	font-size: 1.25em;
 }
 
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.footer-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
 /*
  * Wrapper
  *
