@@ -4,17 +4,9 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  
- <hr>
+  <hr>
   <div class="post-content">
     {{ content }}
-    <details markdown='1'><summary>作品信息</summary>
-    <blockquote>
-    作品发布于：{{ page.date | date: "%Y年%m月%d日" }}，作者：{% if page.author %}作者: {{ page.author }}{% endif %}。
-
-    </blockquote>
-</details>
-    
   </div>
   
   {% if page.tags %}
