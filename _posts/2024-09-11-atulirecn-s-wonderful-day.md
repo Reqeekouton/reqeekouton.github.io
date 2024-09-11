@@ -4,6 +4,7 @@ author: "Yale Max Rymingenu"
 date: 2024-09-11
 categories: [story]
 tags: [故事, 转载, CC BY-SA 3.0]
+layout: post
 ---
 
 #### Area-CN-135 生活设施-01 802号宿舍
@@ -107,6 +108,6 @@ Atulirecn 在走廊中快步行走着，突然前面有一个人从走廊的拐�
 “………………我操死——”
 随着这一声，陈锋原的腰部传来了一阵剧痛……
 
-> 最早发布于网站 [WRITE ON PAPER](https://write-on-paper.wikidot.com/)，作者“Yale Max Rymingenu”[^1]，作品链接：https://write-on-paper.wikidot.com/atulirecn-s-wonderful-day
+> 最早发布于网站 [WRITE ON PAPER](https://write-on-paper.wikidot.com/)，作者“Yale Max Rymingenu”[^1]，使用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.zh-hans) 协议授权，作品链接：https://write-on-paper.wikidot.com/atulirecn-s-wonderful-day
 
 [^1]: 就是我啦！
