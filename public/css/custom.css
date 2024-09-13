@@ -1,0 +1,128 @@
+/*
+引用的字体分别为：
+仿宋
+宋体
+楷体
+*/
+
+@font-face {
+    font-family: 'FangSong';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@91f4d12bd2c52ee1329b1c08b1f97692eb02030f/public/fonts/Fangsong_GB2312.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SongTi';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@0ad4244f9ec7ab35dd05313cd1e05d7e80b68d4c/public/fonts/Songti.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KaiTi';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@0ad4244f9ec7ab35dd05313cd1e05d7e80b68d4c/public/fonts/Kaiti_GB2312.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+
+.name{
+	font-family: "KaiTi", "Times New Roman", serif;
+	}
+
+/*首页显示文章*/
+.post-item {
+  background-color: #fff; 
+  border: 2px solid #ddd; 
+  border-radius: 8px; /
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 16px; 
+  margin-bottom: 20px; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  cursor: pointer; 
+}
+
+.post-item:hover {
+  transform: translateY(-3px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.post-link {
+  text-decoration: none;
+}
+
+
+.post-item h3 {
+  margin-top: 0;
+  font-family: 'SongTi', serif; 
+  color: #333;
+}
+
+
+.post-item p {
+  font-family: 'FangSong', serif; 
+  color: #666; 
+}
+/*页面与文章标题*/
+.page-title, 
+.post-title {
+	text-align:center;
+	}
+	
+/*文章标签*/
+.post-tags{
+	font-family: "KaiTi", "PT Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.75em;
+	}
+	
+ .post-tags a {
+  color: #007acc; 
+  text-decoration: none; 
+}
+
+.post-tags a:hover {
+  text-decoration: underline; 
+}
+
+/*显示上一篇／下一篇文章*/
+.post-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75em
+}
+
+.post-nav a, .post-nav span {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination{
+	font-family: "KaiTi", "PT Sans", Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+}
+
+/*页脚*/
+footer {
+  background-color: e5e5e5;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 12px;
+}
+
+.footer-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/*页面与文章内容字体*/
+.post-content,
+.page-content  {
+    font-family: 'FangSong', "Times New Roman", serif;
+}
