@@ -35,145 +35,6 @@
  */
 
 /* Prevent scroll on narrow devices */
-@font-face {
-    font-family: 'FangSong';
-    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@91f4d12bd2c52ee1329b1c08b1f97692eb02030f/public/fonts/Fangsong_GB2312.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'SongTi';
-    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@0ad4244f9ec7ab35dd05313cd1e05d7e80b68d4c/public/fonts/Songti.ttf') format('truetype');
-    font-weight: normal; 
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KaiTi';
-    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@0ad4244f9ec7ab35dd05313cd1e05d7e80b68d4c/public/fonts/Kaiti_GB2312.ttf') format('truetype');
-    font-weight: normal; 
-    font-style: normal;
-}
-
-html,
-body {
-  overflow-x: hidden;
-}
-
-html {
-  font-family:"SongTi", "FangSong", "PT Serif", Georgia, "Times New Roman", serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "SongTi", "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 150;
-  color: #313131;
-  letter-spacing: -.025rem;
-}
-.name{
-	font-family: "KaiTi", "PT Serif", Georgia, "Times New Roman", serif;
-	}
-/*HOME*/
-.post-item {
-  background-color: #fff; 
-  border: 2px solid #ddd; 
-  border-radius: 8px; /
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  padding: 16px; 
-  margin-bottom: 20px; 
-  transition: transform 0.2s ease, box-shadow 0.2s ease; 
-  cursor: pointer; 
-}
-
-.post-item:hover {
-  transform: translateY(-3px); 
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
-}
-
-.post-link {
-  text-decoration: none;
-}
-
-
-.post-item h3 {
-  margin-top: 0;
-  font-family: 'SongTi', serif; 
-  color: #333;
-}
-
-
-.post-item p {
-  font-family: 'FangSong', serif; 
-  color: #666; 
-}
-
-.page-title, .post-title {
-	text-align:center;
-	}
-	
-.post-tags{
-	font-family: "KaiTi", "PT Sans", Helvetica, Arial, sans-serif;
-	font-size: 0.75em;
-	}
-del{
-	text-decoration-thickness: 1px;
-	}
-	
-.post hr{
-	borer: 0; 
-    height: 2px; 
-    background: #333;
-    }
-    
- .post-tags a {
-  color: #007acc; 
-  text-decoration: none; 
-}
-
-.post-tags a:hover {
-  text-decoration: underline; 
-}
-div.blockquote{
-  border:1px dashed #999;
-  background-color:#f4f4f4;
-  padding:0 1em;
-  margin:1em 3em
-}
-
-.post-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  font-size: 0.75em
-}
-
-.post-nav a, .post-nav span {
-  margin: 0;
-  padding: 0;
-}
-
-.pagination{
-	font-family: "KaiTi", "PT Sans", Helvetica, Arial, sans-serif;
-	font-size: 1.25em;
-}
-
-footer {
-  background-color: e5e5e5;
-  text-align: center;
-  padding: 15px 0;
-  font-size: 12px;
-}
-
-.footer-content a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.footer-content a:hover {
-  text-decoration: underline;
-}
 
 /*
  * Wrapper
@@ -189,6 +50,21 @@ footer {
   font-family: "SongTi", "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-family:"SongTi", "FangSong", "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "SongTi", "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 150;
+  color: #313131;
+  letter-spacing: -.025rem;
+}
 
 /*
  * Container
@@ -430,10 +306,7 @@ a.sidebar-nav-item:focus {
 .post {
   margin-bottom: 4em;
 }
-.post-content,
-.page-content  {
-    font-family: 'FangSong', "PT Serif", Georgia, "Times New Roman", serif;
-}
+
 
 /* Blog post or page title */
 .page-title,
