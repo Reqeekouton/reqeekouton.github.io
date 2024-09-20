@@ -1,7 +1,7 @@
 ---
 title: "Atulirecn 的美妙一天？"
 author: "Yale Max Rymingenu"
-date: 2024-09-21
+date: 2024-09-11
 categories: [story]
 tags: [故事, 转载, CC BY-SA 3.0]
 layout: post
