@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="doc-body">
+  	<div class="doc-header">
+  	<div class="logo left-logo"></div>
+        <h2>SCP FOUNDATION</h3>
+        <h1>SCP 基金会</h1>
+        <div class="logo right-logo"></div>
+    <div class="doc-header">
+    	<hr>
+  <div class="doc-content">
+  	<h2 class="post-title">{{ page.title }}</h2>
+    {{ content }}
+    </div>
+    <hr>
+    <div class="footer">
+            <div class="page-number">- 1 -</div>
+            </div>
+  </div>
+  
+  {% if page.tags %}
+  <div class="post-tags">
+    <span>标签：</span>
+    {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}/">{{ tag }}</a>
+      {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </div>
+{% endif %}
+</div>
+
+<div class="post-nav">
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}"> << {{ page.previous.title }}  </a>
+  {% endif %}
+
+  <span> | {{ page.title }} | </span>
+
+  {% if page.next %}
+    <a href="{{ page.next.url }}"> {{ page.next.title }}>> </a>
+  {% endif %}
+</div>
