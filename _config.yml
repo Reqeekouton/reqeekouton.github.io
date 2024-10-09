@@ -33,10 +33,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-paginate
-  - jekyll-autolinker
-
-autolinker:
-  target: "_blank"
 
 jekyll-archives:
   enabled:
