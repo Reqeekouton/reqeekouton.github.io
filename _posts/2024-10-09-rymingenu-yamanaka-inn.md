@@ -20,7 +20,6 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 
 ## 基础信息
 
-
 **全名：** 任亚墨
 
 **种族：** 现代智人
@@ -51,6 +50,7 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 
 **经常携带的物品：** 格洛克18手枪，一张未知卡片，未知勋章，未知材料的棒球棍
 
+
 ## 社会属性（山中旅馆）
 
 **职业：**
@@ -59,6 +59,7 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
  - YI-01情报部-资料整理小组职员
 
 **安保等级：**<span style="color:#cca800;font-weight:bold;">3</span>
+
 
 ### 人物性格
 
@@ -69,6 +70,7 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 与该名职员熟识后，会发现他较为健谈，但交流中冷笑话与黑色幽默仍不缺席，当话题触及到他档案部与应急小组的工作时，其总会将话题转移，或无痕迹，或强制。
 
 [信息丢失]
+
 
 ### 特长与能力
 
@@ -89,7 +91,7 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 
 ~~不，好像还有点用处，也许在缺少食物的情况下，我们可以……~~
 
-*备注：食堂报告了多次面粉减少事件，后勤部门也有类似的报告，原因目前不明。*
+***备注：** 食堂报告了多次面粉减少事件，后勤部门也有类似的报告，原因目前不明。*
 
 *嘿！███又打人了嘿！*
 
@@ -136,12 +138,18 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 - 任亚墨 - [Charchz Mohistion](https://mount-rain.link/index.php/character/Charchz-Mohistion.html)
    - 任亚墨是被Charchz Mohistion发现后选择的加入山中旅馆。
 
+
 ## 人物经历
 
 [应任亚墨要求限制访问]
 
-> **作者：** “任亚墨”</br>
-> **文章链接：** https://mount-rain.link/index.php/character/rymingenu.html</br>
-> 来自[山雨的湖边小屋](https://mount-rain.link)</br>
-> **授权协议：** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</br>
+
+> **作者：** “任亚墨”
+> 
+> **文章链接：** https://mount-rain.link/index.php/character/rymingenu.html
+> 
+> 来自[山雨的湖边小屋](https://mount-rain.link)
+> 
+> **授权协议：** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+> 
 > 视网站情况进行了部分删改。
