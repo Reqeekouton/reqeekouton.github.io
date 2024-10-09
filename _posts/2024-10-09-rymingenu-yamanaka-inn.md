@@ -146,7 +146,7 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 
 > **作者：** “任亚墨”
 > 
-> **文章链接：** https://mount-rain.link/index.php/character/rymingenu.html
+> **文章链接：**<a href="https://mount-rain.link/index.php/character/rymingenu.html" target="_blank">https://mount-rain.link/index.php/character/rymingenu.html</a>
 > 
 > 来自[山雨的湖边小屋](https://mount-rain.link)
 > 
