@@ -150,9 +150,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*作品授权信息模块*/
 .licensebox{
-border-style:dashed;
-border-width:3px 3px 3px 3px;
-border-color:#696969;
 font-family:"FangSong", "Time New Roman", serif;
-background-color:#D3D3D3
+border-style:dashed;
+border-width: 1px
+border-color:#999;
+margin:1em 3em;
+padding:0 1em
+background-color:#F4F4F4;
 }
