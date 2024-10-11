@@ -143,13 +143,13 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 
 [应任亚墨要求限制访问]
 
+<div class="licensebox">
+**作者：**任亚墨
+ 
+**文章链接：**<a href="https://mount-rain.link/index.php/character/rymingenu.html" target="_blank">https://mount-rain.link/index.php/character/rymingenu.html</a>
 
-> **作者：** “任亚墨”
-> 
-> **文章链接：**<a href="https://mount-rain.link/index.php/character/rymingenu.html" target="_blank">https://mount-rain.link/index.php/character/rymingenu.html</a>
-> 
-> 来自[山雨的湖边小屋](https://mount-rain.link)
-> 
-> **授权协议：** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-> 
-> 视网站情况进行了部分删改。
+来自[山雨的湖边小屋](https://mount-rain.link)
+
+**授权协议：**[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+视网站情况进行了部分删改。
+</div>
