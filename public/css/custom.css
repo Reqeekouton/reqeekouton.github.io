@@ -153,8 +153,8 @@ h1, h2, h3, h4, h5, h6 {
 font-family:"FangSong", "Time New Roman", serif;
 border-style:dashed;
 border-width: 1px
-border-color:#999;
-margin:1em 3em;
-padding:0 1em
-background-color:#F4F4F4;
+border-color:#BEBEBE;
+margin:0.2em 0.5em;
+padding:0 0.2em
+background-color:#f4f4f4;
 }
