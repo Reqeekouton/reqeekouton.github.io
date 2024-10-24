@@ -1,9 +1,10 @@
 /*
 引用的字体分别为：
 仿宋
-宋体
+思源宋体
 楷体
 */
+@import url('https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Noto+Serif+SC:wght@200..900&display=swap');
 
 @font-face {
     font-family: 'FangSong';
@@ -12,12 +13,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'SongTi';
-    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@0ad4244f9ec7ab35dd05313cd1e05d7e80b68d4c/public/fonts/Songti.ttf') format('truetype');
-    font-weight: normal; 
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'KaiTi';
@@ -55,7 +50,7 @@
 
 .post-item h3 {
   margin-top: 0;
-  font-family: 'SongTi', serif; 
+  font-family: 'Noto Serif SC', serif; 
   color: #333;
 }
 
@@ -130,7 +125,7 @@ footer {
 .wrap {
   position: relative;
   width: 100%;
-  font-family: "SongTi", "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Noto Serif SC", "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
 }
 
 html,
@@ -139,22 +134,12 @@ body {
 }
 
 html {
-  font-family:"SongTi", "FangSong", "Times New Roman", serif;
+  font-family:"Noto Serif SC", "FangSong", "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "SongTi", "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 150;
+  font-family: "Noto Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 200;
   color: #313131;
   letter-spacing: -.025rem;
-}
-/*作品授权信息模块*/
-.licensebox{
-font-family: "FangSong", "Time New Roman", serif;
-border-style: solid;
-border-width: 0.5px
-border-color: #BEBEBE;
-margin: 0.2em 0.5em;
-padding: 0 0.2em
-font-size: 0.9em
 }
