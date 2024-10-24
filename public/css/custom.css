@@ -50,7 +50,8 @@
 
 .post-item h3 {
   margin-top: 0;
-  font-family: 'Noto Serif SC', serif; 
+  font-family: 'Noto Serif SC', 'Fangsong', serif; 
+  font-weight: 700;
   color: #333;
 }
 
@@ -62,7 +63,9 @@
 /*页面与文章标题*/
 .page-title, 
 .post-title {
-	text-align:center;
+  text-align:center;
+  font-family: 'Noto Serif SC', 'FangSong', serif; 
+  font-weight: 700;
 	}
 	
 /*文章标签*/
@@ -139,7 +142,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 200;
+  font-weight: 700;
   color: #313131;
   letter-spacing: -.025rem;
 }
