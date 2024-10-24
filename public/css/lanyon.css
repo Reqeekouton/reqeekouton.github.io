@@ -42,29 +42,9 @@
  * The wrapper is used to position site content when the sidebar is toggled. We
  * use an outter wrap to position the sidebar without interferring with the
  * regular page content.
+ * 整段换位置了
  */
 
-.wrap {
-  position: relative;
-  width: 100%;
-  font-family: "SongTi", "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
-}
-
-html,
-body {
-  overflow-x: hidden;
-}
-
-html {
-  font-family:"SongTi", "FangSong", "Times New Roman", serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "SongTi", "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 150;
-  color: #313131;
-  letter-spacing: -.025rem;
-}
 
 /*
  * Container
@@ -148,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "SongTi", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Noto Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
