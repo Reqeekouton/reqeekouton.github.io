@@ -40,7 +40,7 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 
 **瞳色：**<span style="color:#8B4513;font-weight:bold;">SaddleBrown / 鞍褐 / #8B4513</span>
 
-**代表色：**<span style="color:#A9A9A9;font-weight:bold;">DarkGray/ 暗灰 / #696969</span>
+**代表色：**<span style="color:#A9A9A9;font-weight:bold;">DarkGray/ 暗灰 / #A9A9A9</span>
 
 **外貌特征：**短刘海，戴黑色眼镜，菱形脸且带有轻微的典型鼻炎脸特征，非典型████特征。
 
@@ -54,9 +54,10 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 ## 社会属性（山中旅馆）
 
 **职业：**
-- 快速反应小组-α3队员（呼号A302）
-- YI-01设施播音员
-- YI-01情报部下属资料整理小组职员
+ - 驻YI-01快速反应大队二中队一小队副小队长
+   - 内部呼号███
+   - 通用呼号WK112102
+ - YI-01设施播音员
 
 **安保等级：**<span style="color:#cca800;font-weight:bold;">3</span>
 
