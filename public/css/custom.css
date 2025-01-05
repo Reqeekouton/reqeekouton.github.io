@@ -143,6 +143,21 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  color: #313131;
+  color:#313131;
   letter-spacing: -.025rem;
+}
+/* 默认（浅色模式）样式 */
+
+/* 暗色模式样式 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  p, strong, .post-title, .page-title, h1, h2, h3, h4, h5, h6, .post-item h3, .post-item p, .masthead-title a {
+    color: #e0e0e0;
+  }
+  .post-item, .sidebar-toggle{
+    background-color: #121212;
+  }
 }
