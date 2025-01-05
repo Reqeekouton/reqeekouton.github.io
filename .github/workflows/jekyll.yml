@@ -60,3 +60,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Clear bundler cache
+  run: bundle exec rm -rf vendor/bundle
+
