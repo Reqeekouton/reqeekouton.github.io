@@ -145,8 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color:#313131;
   letter-spacing: -.025rem;
-}
-/* 默认（浅色模式）样式 */
+	}
 
 /* 暗色模式样式 */
 @media (prefers-color-scheme: dark) {
