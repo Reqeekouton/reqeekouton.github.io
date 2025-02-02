@@ -76,7 +76,7 @@ layout: post
 
 <blockquote>
 <p><strong>作者：</strong>任亚墨<br>
-<strong>文章链接：</strong><a href="https://mount-rain.link/index.php/item/yamanaka-inn-s-special-departments.html" target="_blank">hhttps://mount-rain.link/index.php/item/yamanaka-inn-s-special-departments.html</a><br>
+<strong>文章链接：</strong><a href="https://mount-rain.link/index.php/item/yamanaka-inn-s-special-departments.html" target="_blank">https://mount-rain.link/index.php/item/yamanaka-inn-s-special-departments.html</a><br>
 来自<a href="https://mount-rain.link" target="_blank">山雨的湖边小屋</a><br>
 <strong>授权协议：</strong><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a><br>
 文章内容视网站情况进行了部分删改。<br>
