@@ -56,7 +56,7 @@
 
 .post-item h3 {
   margin-top: 0;
-  font-family: 'Noto Serif SC', 'Fangsong', serif; 
+  font-family: 'Times New Roman', 'Noto Serif SC', serif; 
   font-weight: 700;
   color: #333;
 }
@@ -70,7 +70,7 @@
 .page-title, 
 .post-title {
   text-align:center;
-  font-family: 'Times New Roman', 'Noto Serif SC', 'FangSong', serif; 
+  font-family: 'Times New Roman', 'Noto Serif SC', serif; 
   font-weight: 700;
 	}
 	
@@ -128,13 +128,13 @@ footer {
 /*页面与文章内容字体*/
 .post-content,
 .page-content  {
-    font-family: 'Times New Roman', 'FangSong', "Times New Roman", serif;
+    font-family: 'Times New Roman', 'FangSong', serif;
 }
 
 .wrap {
   position: relative;
   width: 100%;
-  font-family: 'Times New Roman', "Noto Serif SC", "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', 'Noto Serif SC', 'FangSong', 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
 html,
@@ -143,11 +143,11 @@ body {
 }
 
 html {
-  font-family:'Times New Roman', "Noto Serif SC", "FangSong", "Times New Roman", serif;
+  font-family:'Times New Roman', 'Noto Serif SC', 'FangSong', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Times New Roman', "Noto Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', 'Noto Serif SC', 'PT Sans', Helvetica, Arial, sans-serif;
   font-weight: 700;
   color:#313131;
   letter-spacing: -.025rem;
