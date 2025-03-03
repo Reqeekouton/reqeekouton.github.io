@@ -21,6 +21,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@8119b1dbc6d72918c0692f3fb2a13cb4bbd85596/public/fonts/Times%20New%20Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .name{
 	font-family: "KaiTi", "Times New Roman", serif;
@@ -57,14 +63,14 @@
 
 
 .post-item p {
-  font-family: 'FangSong', serif; 
+  font-family: 'Times New Roman', 'FangSong', serif; 
   color: #666; 
 }
 /*页面与文章标题*/
 .page-title, 
 .post-title {
   text-align:center;
-  font-family: 'Noto Serif SC', 'FangSong', serif; 
+  font-family: 'Times New Roman', 'Noto Serif SC', 'FangSong', serif; 
   font-weight: 700;
 	}
 	
@@ -98,7 +104,7 @@
 }
 
 .pagination{
-	font-family: "KaiTi", "PT Sans", Helvetica, Arial, sans-serif;
+	font-family: 'Times New Roman', "KaiTi", "PT Sans", Helvetica, Arial, sans-serif;
 	font-size: 1.25em;
 }
 
@@ -122,13 +128,13 @@ footer {
 /*页面与文章内容字体*/
 .post-content,
 .page-content  {
-    font-family: 'FangSong', "Times New Roman", serif;
+    font-family: 'Times New Roman', 'FangSong', "Times New Roman", serif;
 }
 
 .wrap {
   position: relative;
   width: 100%;
-  font-family: "Noto Serif SC", "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', "Noto Serif SC", "FangSong", "PT Sans", Helvetica, Arial, sans-serif;
 }
 
 html,
@@ -137,11 +143,11 @@ body {
 }
 
 html {
-  font-family:"Noto Serif SC", "FangSong", "Times New Roman", serif;
+  font-family:'Times New Roman', "Noto Serif SC", "FangSong", "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Noto Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', "Noto Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color:#313131;
   letter-spacing: -.025rem;
