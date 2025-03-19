@@ -91,6 +91,6 @@ layout: post
 来自<a href="https://mount-rain.link" target="_blank">山雨的湖边小屋</a><br>
 <strong>授权协议：</strong><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a><br>
 文章内容视网站情况进行了部分删改。<br>
-<strong>注：</strong>本文在“山中旅馆”中并不是“世界设定”，而是“体系”。
+<strong>注：</strong>本文在“山中旅馆”中并不是“世界设定”，而是“体系”。<br>
 <strong>注2：</strong>本文在“山中旅馆”的原标题为“山中旅馆的特殊部门”。</p>
 </blockquote>
