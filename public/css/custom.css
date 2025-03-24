@@ -146,6 +146,56 @@ body {
   letter-spacing: -.025rem;
 	}
 
+/* 友链样式 */
+.friend-link {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 12px;
+    max-width: 500px;
+    margin: 10px 0;
+    transition: box-shadow 0.3s;
+}
+
+.friend-link:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.friend-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+    object-fit: cover;
+}
+
+.friend-info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.friend-title {
+    margin: 0; 
+    font-size: 18px; 
+}
+
+.friend-title a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.friend-title a:hover {
+    color: #0078d4;
+}
+
+.friend-subtitle {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #666;
+	}
 
 
 /* 暗色模式样式 */
