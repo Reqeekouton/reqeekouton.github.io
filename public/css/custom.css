@@ -148,10 +148,10 @@ body {
 
 blockquote {
     border: 1px dashed #999;
-    background-color: #f4f4f4;
     padding: 1em 2em; 
-    margin: 1em auto; 
-    max-width: 80%; 
+    margin: 1em auto;
+    width: 80%; 
+    max-width: 960px; 
 }
 
 
