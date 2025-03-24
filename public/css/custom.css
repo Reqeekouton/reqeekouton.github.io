@@ -146,17 +146,6 @@ body {
   letter-spacing: -.025rem;
 	}
 
-blockquote {
-    border: 1px dashed #999; 
-    background-color: #f9f9f9; 
-    padding: 1em 2em; 
-    margin: 1em auto; 
-    width: 80%; 
-    max-width: 960px; 
-    line-height: 1.8; 
-    box-sizing: border-box; 
-}
-
 
 
 /* 暗色模式样式 */
@@ -171,11 +160,4 @@ blockquote {
   .post-item, .sidebar-toggle{
     background-color: #121212;
   }
-}
-
-@media (max-width: 768px) {
-    blockquote {
-        width: 90%;
-        padding: 0.8em 1em;
-    }
 }
