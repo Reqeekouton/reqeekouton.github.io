@@ -146,12 +146,14 @@ body {
   letter-spacing: -.025rem;
 	}
 
-blockquote{
-	border: 1px dashed #999;
+blockquote {
+    border: 1px dashed #999;
     background-color: #f4f4f4;
-    padding: 0 1em;
-    margin: 1em 3em;
+    padding: 1em 2em; 
+    margin: 1em auto; 
+    max-width: 80%; 
 }
+
 
 /* 暗色模式样式 */
 @media (prefers-color-scheme: dark) {
@@ -165,4 +167,11 @@ blockquote{
   .post-item, .sidebar-toggle{
     background-color: #121212;
   }
+}
+
+@media (max-width: 768px) {
+    blockquote {
+        width: 90%;
+        padding: 0.5em 1em;
+    }
 }
