@@ -3,5 +3,13 @@ layout: page
 title: 友链
 ---
 
-- [山中雨的湖边小屋](https://mount-rain.link/)
-  - **简介：**问过，山中雨觉得没有什么好介绍的，[我个人建议看这个页面](https://mount-rain.link/index.php/about.html)。
+<div class="friend-link">
+    <img src="https://mount-rain.link/usr/uploads/2023/08/654093848.png" alt="网站Logo" class="friend-logo">
+    <div class="friend-info">
+        <h3 class="friend-title">
+            <a href="https://mount-rain.link" target="_blank">山中雨的湖边小屋</a>
+        </h3>
+        <h4 class="friend-subtitle"> 珍惜现在的美好，争取未来的幸福。</h4>
+    </div>
+</div>
+
