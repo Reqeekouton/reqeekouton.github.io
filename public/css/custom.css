@@ -146,6 +146,13 @@ body {
   letter-spacing: -.025rem;
 	}
 
+blockquote{
+	border: 1px dashed #999;
+    background-color: #f4f4f4;
+    padding: 0 1em;
+    margin: 1em 3em;
+}
+
 /* 暗色模式样式 */
 @media (prefers-color-scheme: dark) {
   body {
