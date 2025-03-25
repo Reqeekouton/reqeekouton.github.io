@@ -153,7 +153,7 @@ body {
     border: 2px solid #ddd;
     border-radius: 12px;
     padding: 12px;
-    max-width: 500px;
+    max-width: auto;
     margin: 10px 0;
     transition: box-shadow 0.3s;
 }
