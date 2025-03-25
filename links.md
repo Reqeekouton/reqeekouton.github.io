@@ -13,3 +13,12 @@ title: 友链
     </div>
 </div>
 
+<div class="friend-link">
+    <img src="https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@main/assets/images/friends/karlbaey.png" alt="Karlblogs" class="friend-logo">
+    <div class="friend-info">
+        <h3 class="friend-title">
+            <a href="https://karlbaey.top" target="_blank">老卡尔的旧纸箱</a>
+        </h3>
+        <h4 class="friend-subtitle">这里存着卡尔白的过去、现在和未来</h4>
+    </div>
+</div>
