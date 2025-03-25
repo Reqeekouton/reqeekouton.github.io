@@ -13,14 +13,17 @@ title: 主页
     </div>
   {% endfor %}
 
-  {% assign non_sticky_posts = paginator.posts | reject: "tags", "置顶" %}
-  {% for post in non_sticky_posts %}
+  {% assign non_sticky_posts = site.posts | reject_exp: "post", "post.tags contains '置顶'" %}
+  {% assign paginated_posts = non_sticky_posts | slice: paginator.per_page | offset: paginator.per_page | limit: paginator.per_page %}
+  
+  {% for post in paginated_posts %}
     <div class="post-item" onclick="window.location='{{ post.url | relative_url }}'">
       <h3>{{ post.title }}</h3>
       <p><strong>发布于：</strong>{{ post.date | date: "%Y年%m月%d日" }}</p>
       <p>{{ post.excerpt | strip_html | truncate: 35 }}</p>
     </div>
   {% endfor %}
+
   
   <!--
   {% for post in paginator.posts %}
