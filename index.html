@@ -12,9 +12,9 @@ title: 主页
     <p><strong>发布于：</strong>{{ post.date | date: "%Y年%m月%d日" }}</p>
     <p>{{ post.excerpt | strip_html | truncate: 35 }}</p>
   </div>
+  <hr>
 {% endfor %}
 
-<hr>
 
 {% assign non_sticky_posts = "" | split: "," %}
   {% for post in site.posts %}
