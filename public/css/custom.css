@@ -235,29 +235,83 @@ body {
 /* 暗色模式 */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: #181818; /* 更柔和的背景色 */
+    color: #d0d0d0; /* 柔和的文字颜色 */
   }
+  
   p, strong, .post-title, .page-title, h1, h2, h3, h4, h5, h6, .post-item h3, .post-item p, .masthead-title a {
-    color: #e0e0e0;
+    color: #d0d0d0; /* 更柔和的文字颜色 */
   }
-  .post-item, .sidebar-toggle{
-    background-color: #121212;
+
+  .post-item, .sidebar-toggle {
+    background-color: #2a2a2a; /* 文章项和侧边栏背景，避免过暗 */
+    border-color: #444; /* 边框颜色 */
   }
+
+  .post-link {
+    color: #d0d0d0; /* 链接颜色 */
+  }
+
+  .post-link:hover {
+    color: #62aef7; /* 链接悬停颜色，稍微加亮 */
+  }
+
   .copy-button {
-        background: rgba(46, 52, 64, 0.7);
-        color: #c9d1d9;
-        border-color: rgba(110, 118, 129, 0.5);
-    }
+    background: rgba(46, 52, 64, 0.8); /* 更柔和的按钮背景 */
+    color: #c9d1d9; /* 按钮文字颜色 */
+    border-color: rgba(110, 118, 129, 0.6); /* 更柔和的边框 */
+  }
 
   .copy-button:hover {
-        background: rgba(110, 118, 129, 0.3);
-        border-color: rgba(110, 118, 129, 0.8);
-    }
+    background: rgba(110, 118, 129, 0.4); /* 按钮悬停颜色 */
+    border-color: rgba(110, 118, 129, 0.8); /* 悬停时按钮边框的颜色 */
+  }
 
   .copy-button.copied {
-        background: rgba(46, 160, 67, 0.5);
-        border-color: #2da44e;
-        color: #d2ffd2;
-    }
+    background: rgba(46, 160, 67, 0.5); /* 成功复制后按钮背景 */
+    border-color: #2da44e; /* 成功后的按钮边框颜色 */
+    color: #d2ffd2; /* 按钮文字颜色 */
+  }
+
+  .friend-link {
+    background-color: #3a3a3a; /* 友链项背景 */
+    border-color: #555; /* 友链项边框 */
+  }
+
+  .friend-title a {
+    color: #d0d0d0; /* 友链标题颜色 */
+  }
+
+  .friend-title a:hover {
+    color: #62aef7; /* 友链标题悬停颜色 */
+  }
+
+  .friend-subtitle {
+    color: #a0a0a0; /* 友链副标题颜色 */
+  }
+
+  footer {
+    background-color: #2a2a2a; /* 页脚背景 */
+    color: #d0d0d0; /* 页脚文字颜色 */
+  }
+
+  .footer-content a {
+    color: #62aef7; /* 页脚链接颜色 */
+  }
+
+  .footer-content a:hover {
+    color: #d0d0d0; /* 页脚链接悬停颜色 */
+  }
+
+  .pagination {
+    color: #d0d0d0; /* 分页文字颜色 */
+  }
+
+  .pagination a {
+    color: #62aef7; /* 分页链接颜色 */
+  }
+
+  .pagination a:hover {
+    color: #d0d0d0; /* 分页链接悬停颜色 */
+  }
 }
