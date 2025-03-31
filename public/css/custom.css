@@ -256,11 +256,15 @@ body {
     color: #62aef7; /* 链接悬停颜色，稍微加亮 */
   }
 
-  .copy-button {
-    background: rgba(46, 52, 64, 0.8); /* 更柔和的按钮背景 */
-    color: #c9d1d9; /* 按钮文字颜色 */
-    border-color: rgba(110, 118, 129, 0.6); /* 更柔和的边框 */
-  }
+.copy-button {
+        background: rgba(46, 52, 64, 0.8); /* 按钮背景 */
+        color: #c9d1d9; /* 文字颜色 */
+        border-color: rgba(110, 118, 129, 0.6);
+        position: absolute; /* 确保按钮不会被隐藏 */
+        top: 8px;
+        right: 8px;
+        z-index: 10; /* 确保按钮始终在代码块的上层 */
+}
 
   .copy-button:hover {
     background: rgba(110, 118, 129, 0.4); /* 按钮悬停颜色 */
