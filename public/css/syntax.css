@@ -67,6 +67,13 @@
 
 /* 暗色模式 */
 @media (prefers-color-scheme: dark) {
+   .highlight {
+    background-color: #4e4e00; /* 深色背景 */
+    color: #abb2bf; /* 默认文本颜色 */
+    border-radius: 5px;
+    padding: 1rem;
+   }
+  
   /* 高亮背景色 */
   .highlight .hll { background-color: #4e4e00; }
 
