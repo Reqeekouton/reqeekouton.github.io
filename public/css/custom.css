@@ -197,6 +197,36 @@ body {
     color: #666;
 	}
 
+/* 复制按钮 */
+.copy-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    transition: opacity 0.2s, background 0.2s;
+}
+
+/* 按钮悬停效果 */
+.copy-button:hover {
+    opacity: 1;
+    background: rgba(110, 118, 129, 0.4);
+}
+
+/* 按钮图标 */
+.copy-button svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+}
+
 
 /* 暗色模式样式 */
 @media (prefers-color-scheme: dark) {
@@ -210,4 +240,10 @@ body {
   .post-item, .sidebar-toggle{
     background-color: #121212;
   }
+    .copy-button {
+        color: #c9d1d9;
+    }
+    .copy-button:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
 }
