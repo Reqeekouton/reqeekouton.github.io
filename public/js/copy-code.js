@@ -1,7 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() { 
+document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll(".highlight").forEach((codeBlock) => {
-        if (codeBlock.querySelector(".copy-button")) return; // 避免重复添加按钮
+        // 先删除已有的按钮，确保不会重复
+        let oldButton = codeBlock.querySelector(".copy-button");
+        if (oldButton) oldButton.remove();
 
+        // 重新创建按钮
         const button = document.createElement("button");
         button.className = "copy-button";
         button.textContent = "点击复制";
