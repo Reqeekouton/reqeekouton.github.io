@@ -255,7 +255,7 @@ body {
   .post-link:hover {
     color: #62aef7; /* 链接悬停颜色，稍微加亮 */
   }
-/*
+
 .copy-button {
         background: rgba(46, 52, 64, 0.8); 
         color: #c9d1d9; 
@@ -276,7 +276,7 @@ body {
     border-color: #2da44e; 
     color: #d2ffd2; 
   }
-*/
+
 
   .friend-link {
     background-color: #3a3a3a; /* 友链项背景 */
