@@ -314,4 +314,10 @@ body {
   .pagination a:hover {
     color: #d0d0d0; /* 分页链接悬停颜色 */
   }
+  .highlight {
+    background-color: #1e1e1e; /* 深色背景 */
+    color: #abb2bf; /* 默认文本颜色 */
+    border-radius: 5px;
+    padding: 1rem;
+    }
 }
