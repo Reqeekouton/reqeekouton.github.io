@@ -22,3 +22,23 @@ title: 友链
         <h4 class="friend-subtitle">这里存着卡尔白的过去、现在和未来</h4>
     </div>
 </div>
+
+----
+
+如果您想要您的网站加入本页面，请在下面的评论区中提供以下信息：
+```
+网站名称：
+网站简介：
+网站 Logo 或者您的头像：
+网站域名：
+```
+友链条件请求一般会在72小时内处理。
+
+添加本站的友链，相关信息如下：
+```
+网站名称：任亚墨的书房
+网站简介：你似乎来过这里……
+头像：https://rymingenu.fun/assets/images/rymingenu.png
+网站 Logo（临时）：https://rymingenu.fun/assets/images/rymingenu2.png
+网站域名：rymingenu.fun
+```
