@@ -265,60 +265,267 @@ body {
   .copy-button:hover {
     background: rgba(110, 118, 129, 0.4); 
     border-color: rgba(110, 118, 129, 0.8); 
+/*
+引用的字体分别为：
+思源宋体
+仿宋
+楷体
+Times New Roman
+*/
+@import url('https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Noto+Serif+SC:wght@200..900&display=swap');
+
+@font-face {
+    font-family: 'FangSong';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@91f4d12bd2c52ee1329b1c08b1f97692eb02030f/public/fonts/Fangsong_GB2312.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'KaiTi';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@0ad4244f9ec7ab35dd05313cd1e05d7e80b68d4c/public/fonts/Kaiti_GB2312.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@8119b1dbc6d72918c0692f3fb2a13cb4bbd85596/public/fonts/Times%20New%20Roman.ttf') format('truetype');
+}
+
+.name{
+	font-family: "KaiTi", "Times New Roman", serif;
+	}
+
+/*首页显示文章*/
+.post-item {
+  background-color: #fff; 
+  border: 2px solid #ddd; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 16px; 
+  margin-bottom: 20px; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  cursor: pointer; 
+}
+
+.post-item:hover {
+  transform: translateY(-3px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.post-link {
+  text-decoration: none;
+}
+
+
+.post-item h3 {
+  margin-top: 0;
+  font-family: 'Times New Roman', 'Noto Serif SC', serif; 
+  font-weight: 700 !important;
+  color: #333;
+}
+
+
+.post-item p {
+  font-family: 'Times New Roman', 'FangSong', serif; 
+  font-weight: 400;
+  color: #666; 
+}
+/*页面与文章标题*/
+.page-title, 
+.post-title {
+  text-align:center;
+  font-weight: 700 !important;
+	}
+	
+/*文章标签*/
+.post-tags{
+	font-family: 'Times New Roman', "Noto Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.75em;
+	font-weight: 400 !important;
+	}
+	
+ .post-tags a {
+  color: #007acc; 
+  text-decoration: none; 
+}
+
+.post-tags a:hover {
+  text-decoration: underline; 
+}
+
+/*显示上一篇／下一篇文章*/
+.post-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75em
+}
+
+.post-nav a, .post-nav span {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination{
+	font-family: 'Times New Roman', 'Noto Serif SC', Arial, sans-serif;
+	font-size: 1.25em;
+}
+
+/*页脚*/
+footer {
+  background-color: e5e5e5;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 12px;
+}
+
+.footer-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/*页面与文章内容及字体*/
+.post-content,
+.page-content  {
+    font-family: 'Times New Roman', 'FangSong', serif;
+    font-weight: 400 !important;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family:'Times New Roman', 'Noto Serif SC', 'FangSong', serif;
+}
+
+.page-title, .post-title, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', 'Noto Serif SC', 'PT Sans', Helvetica, Arial, sans-serif;
+  font-weight: 700 !important;
+  color:#313131;
+  letter-spacing: -.025rem;
+	}
+
+/* 友链样式 */
+.friend-link {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 12px;
+    max-width: auto;
+    margin: 10px 0;
+    transition: box-shadow 0.3s;
+}
+
+.friend-link:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.friend-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+    object-fit: cover;
+}
+
+.friend-info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.friend-title {
+    margin: 0; 
+    font-size: 18px; 
+}
+
+.friend-title a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.friend-title a:hover {
+    color: #0078d4;
+}
+
+.friend-subtitle {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #666;
+	}
+
+/* 复制按钮 */
+.copy-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 8px;
+    border: 1px solid rgba(175, 184, 193, 0.5);
+    background: rgba(240, 246, 252, 0.7);
+    font-size: 12px;
+    font-weight: 600;
+    color: #24292f;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s, border 0.2s, transform 0.1s;
+}
+
+/* 按钮悬停效果 */
+.copy-button:hover {
+    background: #f6f8fa;
+    border-color: #d0d7de;
+}
+
+/* 按钮点击时的反馈 */
+.copy-button:active {
+    transform: scale(0.95);
+}
+
+/* 复制成功后 */
+.copy-button.copied {
+    background: #dcffe4;
+    border-color: #2da44e;
+    color: #1f883d;
+}
+
+
+/* 暗色模式 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
   }
+  p, strong, .post-title, .page-title, h1, h2, h3, h4, h5, h6, .post-item h3, .post-item p, .masthead-title a {
+    color: #e0e0e0;
+  }
+  .post-item, .sidebar-toggle{
+    background-color: #121212;
+  }
+  .copy-button {
+        background: rgba(46, 52, 64, 0.7);
+        color: #c9d1d9;
+        border-color: rgba(110, 118, 129, 0.5);
+    }
+
+  .copy-button:hover {
+        background: rgba(110, 118, 129, 0.3);
+        border-color: rgba(110, 118, 129, 0.8);
+    }
 
   .copy-button.copied {
-    background: rgba(46, 160, 67, 0.5); 
-    border-color: #2da44e; 
-    color: #d2ffd2; 
-  }
-
-
-  .friend-link {
-    background-color: #3a3a3a; /* 友链项背景 */
-    border-color: #555; /* 友链项边框 */
-  }
-
-  .friend-title a {
-    color: #d0d0d0; /* 友链标题颜色 */
-  }
-
-  .friend-title a:hover {
-    color: #62aef7; /* 友链标题悬停颜色 */
-  }
-
-  .friend-subtitle {
-    color: #a0a0a0; /* 友链副标题颜色 */
-  }
-
-  footer {
-    background-color: #2a2a2a; /* 页脚背景 */
-    color: #d0d0d0; /* 页脚文字颜色 */
-  }
-
-  .footer-content a {
-    color: #62aef7; /* 页脚链接颜色 */
-  }
-
-  .footer-content a:hover {
-    color: #d0d0d0; /* 页脚链接悬停颜色 */
-  }
-
-  .pagination {
-    color: #d0d0d0; /* 分页文字颜色 */
-  }
-
-  .pagination a {
-    color: #62aef7; /* 分页链接颜色 */
-  }
-
-  .pagination a:hover {
-    color: #d0d0d0; /* 分页链接悬停颜色 */
-  }
-  .highlight {
-    background-color: #1e1e1e; /* 深色背景 */
-    color: #abb2bf; /* 默认文本颜色 */
-    border-radius: 5px;
-    padding: 1rem;
+        background: rgba(46, 160, 67, 0.5);
+        border-color: #2da44e;
+        color: #d2ffd2;
     }
 }
+
