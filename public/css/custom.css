@@ -260,10 +260,6 @@ body {
         background: rgba(46, 52, 64, 0.8); 
         color: #c9d1d9; 
         border-color: rgba(110, 118, 129, 0.6);
-        position: absolute; 
-        top: 8px;
-        right: 8px;
-        z-index: 10; 
 }
 
   .copy-button:hover {
