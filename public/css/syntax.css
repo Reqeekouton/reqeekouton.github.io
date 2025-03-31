@@ -63,12 +63,3 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
-
-
-/* 暗色模式 */
-@media (prefers-color-scheme: dark) {
-  
-  /* 高亮背景色 */
-  .highlight .hll { background-color: #1e1e1e; }
-}
-
