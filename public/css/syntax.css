@@ -69,7 +69,7 @@
 @media (prefers-color-scheme: dark) {
   
   /* 高亮背景色 */
-  .highlight .hll { background-color: #4e4e00; }
+  .highlight .hll { background-color: #1e1e1e; }
 
   /* 注释 */
   .highlight .c { color: #777; } /* 暗色模式下，注释文字更柔和 */
