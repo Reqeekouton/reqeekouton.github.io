@@ -35,16 +35,6 @@ title: 主页
     </div>
   {% endfor %}
 
-  
-  <!--
-  {% for post in paginator.posts %}
-    <div class="post-item" onclick="window.location='{{ post.url | relative_url }}'">
-      <h3>{{ post.title }}</h3>
-      <p><strong>发布于：</strong>{{ post.date | date: "%Y年%m月%d日" }}</p>
-      <p>{{ post.excerpt | strip_html | truncate: 35 }}</p>
-    </div>
-  {% endfor %}
--->
   <hr>
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
