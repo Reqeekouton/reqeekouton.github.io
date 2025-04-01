@@ -288,7 +288,7 @@ a.sidebar-nav-item:focus {
 }
 
 
-/* Blog post or page title */
+/*
 .page-title,
 .post-title,
 .post-title a {
@@ -300,7 +300,7 @@ a.sidebar-nav-item:focus {
   font-family: "SongTi", "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
-
+*/
 /* Meta data line below post title */
 .post-date {
   display: block;
@@ -341,9 +341,9 @@ a.sidebar-nav-item:focus {
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
  * there are no more previous or next posts to show.
  */
-
+/*
 .pagination {
-  overflow: hidden; /* clearfix */
+  overflow: hidden; 
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -351,7 +351,7 @@ a.sidebar-nav-item:focus {
   text-align: center;
 }
 
-/* Pagination items can be `span`s or `a`s */
+
 .pagination-item {
   display: block;
   padding: 1rem;
@@ -361,10 +361,11 @@ a.sidebar-nav-item:focus {
   margin-bottom: -1px;
 }
 
-/* Only provide a hover state for linked pagination items */
+
 a.pagination-item:hover {
   background-color: #f5f5f5;
 }
+
 
 @media (min-width: 30em) {
   .pagination {
@@ -385,7 +386,7 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
-
+*/
 
 /*
  * Reverse layout
