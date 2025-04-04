@@ -74,5 +74,5 @@ YI-02各部门的所在地，同时也是旅馆高管及重要人员保卫部的
 <p><strong>作者：</strong>任亚墨<br />
 <strong>文章链接：</strong><a href="https://mount-rain.link/index.php/item/f-yi-02.html" target="_blank">https://mount-rain.link/index.php/item/f-yi-02.html</a><br/>
 来自<a href="https://mount-rain.link" target="_blank">山雨的湖边小屋</a><br/>
-<strong>授权协议：</strong><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a><br/>
+<strong>授权协议：</strong><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a><br/></p>
 </blockquote>
