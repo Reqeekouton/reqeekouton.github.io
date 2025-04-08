@@ -4,8 +4,9 @@ layout: default
 
 <div class="post">
   <div class="meta-title">
-{{ page.title }}</br>
-<span style="font-size:50%;"><strong>作者：</strong>{{ author.name }}</span>
+{{ page.title }}
+<p></p>
+<span style="font-size:35%;"><strong>作者：</strong>{{ author.name | default: author }}</span>
 </div>
   <div class="post-content">
     {{ content }}
