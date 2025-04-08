@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="meta-title">
+{{ page.title }}</br>
+<span style="font-size:50%;"><strong>作者：</strong>{{ author.name }}</span>
+</div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  
+  {% if page.tags %}
+  <div class="post-tags">
+    <span>标签：</span>
+    {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}/">{{ tag }}</a>
+      {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </div>
+{% endif %}
+</div>
+<hr>
+<div class="post-nav">
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}"> << {{ page.previous.title }}  </a>
+  {% endif %}
+
+  <span> | {{ page.title }} | </span>
+
+  {% if page.next %}
+    <a href="{{ page.next.url }}"> {{ page.next.title }}>> </a>
+  {% endif %}
+</div>
+      <hr>
+<script src="https://giscus.app/client.js"
+        data-repo="Reqeekouton/reqeekouton.github.io"
+        data-repo-id="R_kgDOMqZMUA"
+        data-category="General"
+        data-category-id="DIC_kwDOMqZMUM4CobOM"
+        data-mapping="title"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
