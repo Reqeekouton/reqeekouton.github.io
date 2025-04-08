@@ -77,14 +77,13 @@ Times New Roman
   text-align:center;
   font-weight: 700 !important;
 	}
+
 /* 以下代码修改自SCP基金会 杂志主题 https://scp-wiki-cn.wikidot.com/theme:magazine 作者Etinjat*/
 /* ===================== .meta-title 样式 ===================== */
 .meta-title {
     display: grid;
     width: 100%;
-    font-size: 2.5rem; /* --PGtt_size */
-    font-weight: bold;
-    color: #000; /* --color-darkest */
+    color: #000; 
     background: transparent;
     background-size: contain;
     background-repeat: no-repeat;
