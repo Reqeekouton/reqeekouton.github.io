@@ -2,7 +2,7 @@
 title: "谈谈WOP月刊"
 author: "任亚墨"
 date: 2025-03-25
-categories: [test]
+categories: [essays]
 tags: [转载, 杂谈, CC BY-SA 3.0]
 layout: post_2
 ---
@@ -28,6 +28,7 @@ layout: post_2
 <div style="text-align: right;">
 <p><strong>二〇二五年三月十三日<br />
 夜深<span style="white-space: pre-wrap;">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;</span></strong></p>
+</div>
 
 <blockquote>
 <p><strong>本文作者：</strong>任亚墨<br />
