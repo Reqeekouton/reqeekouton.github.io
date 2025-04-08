@@ -77,7 +77,103 @@ Times New Roman
   text-align:center;
   font-weight: 700 !important;
 	}
-	
+/* 以下代码修改自SCP基金会 杂志主题 https://scp-wiki-cn.wikidot.com/theme:magazine 作者Etinjat*/
+/* ===================== .meta-title 样式 ===================== */
+.meta-title {
+    display: grid;
+    width: 100%;
+    font-size: 2.5rem; /* --PGtt_size */
+    font-weight: bold;
+    color: #000; /* --color-darkest */
+    background: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border: none;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content 0rem 0.5em; /* --PGtt_underbox-gap, --PGtt_underbox-height */
+    grid-template-areas: 'body' 'gap' 'underbox';
+    margin-bottom: 0.5rem;
+    font-family: 'Noto Serif SC', sans-serif; /* --page-tt-font */
+}
+
+/* 底部装饰线 */
+.meta-title:before {
+    grid-area: underbox;
+    align-self: center;
+    content: ' ';
+    height: 0.07em; /* --PGtt-linebox_gap */
+    background: transparent;
+    border: 0.1em solid #555; /* --PGtt-linebox_space, --color-darker */
+    border-image-source: linear-gradient(90deg, #555, #555); /* --PGtt-lines-img */
+    border-image-width: 0.1em 0 0.06em 0; /* --PGtt-line01_height, --PGtt-line02_height */
+    border-image-slice: 100% 0 100% 0;
+    -webkit-clip-path: polygon(
+        100% 0, 0 0, 0 0.1em, 
+        10% 0.1em, 10% 100%, 
+        45.6% 100%, 45.6% 0, 
+        54.4% 0, 54.4% 100%, 
+        90% 100%, 90% 0.1em, 
+        100% 0.1em
+    ); /* --PGtt-line02_clip (计算值) */
+    clip-path: polygon(
+        100% 0, 0 0, 0 0.1em, 
+        10% 0.1em, 10% 100%, 
+        45.6% 100%, 45.6% 0, 
+        54.4% 0, 54.4% 100%, 
+        90% 100%, 90% 0.1em, 
+        100% 0.1em
+    );
+}
+
+/* 装饰性图标 */
+.meta-title:after {
+    grid-area: underbox;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    content: "★"; /* --PGtt-orn_content */
+    font-family: 'FontAwesome', 'Roboto Slab', sans-serif; /* --RATE_font */
+    font-size: 0.8em; /* --PGtt-orn_size */
+    color: #542429; /* --accentColor */
+    width: 1.2em; /* --PGtt-orn_width (0.8em * 1.5) */
+    z-index: 1;
+    margin-top: 0;
+}
+
+/* ===================== .mz-tt 样式 ===================== */
+
+.mz-tt {
+    text-align: center;
+    margin: 0.5rem; /* --ttbox_margin */
+}
+ 
+.mz-tt :is(h1, h2,h3,h4,h5, h6) {
+display: flex;
+    align-items: center;
+}
+ 
+.mz-tt :is(h1, h2,h3,h4,h5, h6) span{
+    padding: 0 1rem;
+margin: 0 auto;
+}
+ 
+.mz-tt :is(h1, h2,h3,h4,h5, h6):before, .mz-tt :is(h1, h2,h3,h4,h5, h6):after{
+content: "";
+flex-grow: 1;
+height: 0.1rem;
+color: #542429;
+background-color: #6d6b82;   
+}
+
+.mz-tt h1, h2, h3, h4, h5, h6{
+  color:#990314;
+}
+
 /*文章标签*/
 .post-tags{
 	font-family: 'Times New Roman', "Noto Serif SC", "PT Sans", Helvetica, Arial, sans-serif;
