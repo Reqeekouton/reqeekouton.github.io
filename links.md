@@ -23,6 +23,17 @@ title: 友链
     </div>
 </div>
 
+<div class="friend-link">
+    <img src="https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@main/assets/images/friends/ceteaonia.png" alt="Ceteaonia" class="friend-logo">
+    <div class="friend-info">
+        <h3 class="friend-title">
+            <a href="https://mount-rain.link" target="_blank">Ceteaonia</a>
+        </h3>
+        <h4 class="friend-subtitle">这里装满了枯萎的花</h4>
+    </div>
+</div>
+
+
 ----
 
 如果您想要您的网站加入本页面，请在下面的评论区中提供以下信息：
