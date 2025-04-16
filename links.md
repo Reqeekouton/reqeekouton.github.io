@@ -27,7 +27,7 @@ title: 友链
     <img src="https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@main/assets/images/friends/ceteaonia.png" alt="Ceteaonia" class="friend-logo">
     <div class="friend-info">
         <h3 class="friend-title">
-            <a href="https://mount-rain.link" target="_blank">Ceteaonia</a>
+            <a href="https://ceteaonia.top" target="_blank">Ceteaonia</a>
         </h3>
         <h4 class="friend-subtitle">这里装满了枯萎的花</h4>
     </div>
