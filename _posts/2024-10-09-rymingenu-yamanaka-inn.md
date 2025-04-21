@@ -18,7 +18,7 @@ tags: [人物设定, CC BY-NC-SA 4.0,山中旅馆, 转载]
 <div class="mz-tt"><h2>基础信息</h2></div>
 
 <div style="background-color:#fadbd8;padding:15px;margin:20px auto;border-radius: 4px;font-size: 14px;color: #333;max-width:600px;width:90%; box-sizing:border-box;">
-    <div style="font-weight:bold;margin-bottom:10px;color:#000000;text-align:center;">来自山中旅馆保卫部档案管理局的警告</div>
+    <div style="font-weight:bold;margin-bottom:10px;color:#000000;text-align:center;font-family: 'Times New Roman', 'Noto Serif SC', sans-serif;">来自山中旅馆保卫部档案管理局的警告</div>
     <div style="line-height:1.6;">
         <p>给所有正在阅读本档案的保卫部职员：</p>
         <p>本档案中可能存在大量的误导性的、有错误的信息，包括本提醒在内。</p>
