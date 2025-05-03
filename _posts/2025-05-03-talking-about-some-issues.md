@@ -107,9 +107,9 @@ layout: post_2
 
 ### 参考与引用文献
 
-<a id="#01"></a> [1]毛泽东. 关于正确处理人民内部矛盾的问题.  中华人民共和国国务院公报，1957(26)：467-492 [2025-05-03]. [https://www.gov.cn/gongbao/shuju/1957/gwyb195726.pdf](https://www.gov.cn/gongbao/shuju/1957/gwyb195726.pdf).<br>
-<a id="#02"></a>[2]毛泽东. 关于领导方法的若干问题. 毛泽东选集：第三卷. 北京：人民出版社, 1991: 897-902.<br>
-<a id="#03"></a>[3]lest-day. 矛盾与解决问题. lest-day的私人博客，2024-08-09 [2025-05-03]. [https://blog.lestday233.eu.org/article/contradiction-and-problem-solving](https://blog.lestday233.eu.org/article/contradiction-and-problem-solving). CC BY-SA 4.0.<br>
-<a id="#04"></a>[4]毛泽东. 反对本本主义. 毛泽东选集：第一卷. 北京：人民出版社, 1991: 109-118.<br>
-<a id="#05"></a>[5]lest-day. 问根论. lest-day的私人博客，2024-11-08 [2025-05-03]. [https://blog.lestday233.eu.org/article/the-root-of-the-problem](https://blog.lestday233.eu.org/article/the-root-of-the-problem). CC BY-SA 4.0.<br>
-<a id="#06"></a>[6]毛泽东. 矛盾论. 毛泽东选集：第一卷. 北京：人民出版社, 1991: 299-340.
+<a id="01"></a> [1]毛泽东. 关于正确处理人民内部矛盾的问题.  中华人民共和国国务院公报，1957(26)：467-492 [2025-05-03]. [https://www.gov.cn/gongbao/shuju/1957/gwyb195726.pdf](https://www.gov.cn/gongbao/shuju/1957/gwyb195726.pdf).<br>
+<a id="02"></a>[2]毛泽东. 关于领导方法的若干问题. 毛泽东选集：第三卷. 北京：人民出版社, 1991: 897-902.<br>
+<a id="03"></a>[3]lest-day. 矛盾与解决问题. lest-day的私人博客，2024-08-09 [2025-05-03]. [https://blog.lestday233.eu.org/article/contradiction-and-problem-solving](https://blog.lestday233.eu.org/article/contradiction-and-problem-solving). CC BY-SA 4.0.<br>
+<a id="04"></a>[4]毛泽东. 反对本本主义. 毛泽东选集：第一卷. 北京：人民出版社, 1991: 109-118.<br>
+<a id="05"></a>[5]lest-day. 问根论. lest-day的私人博客，2024-11-08 [2025-05-03]. [https://blog.lestday233.eu.org/article/the-root-of-the-problem](https://blog.lestday233.eu.org/article/the-root-of-the-problem). CC BY-SA 4.0.<br>
+<a id="06"></a>[6]毛泽东. 矛盾论. 毛泽东选集：第一卷. 北京：人民出版社, 1991: 299-340.
