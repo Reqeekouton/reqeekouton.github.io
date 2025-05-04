@@ -34,7 +34,7 @@ title: 友链
 </div>
 
 <div class="friend-link">
-    <img src="https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@main/assets/images/friends/mount-rain.png" alt="饭卷君0_0的赛博纸盒" class="friend-logo">
+    <img src="https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@main/assets/images/friends/rice0_0.jpg" alt="饭卷君0_0的赛博纸盒" class="friend-logo">
     <div class="friend-info">
         <h3 class="friend-title">
             <a href="https://mount-rain.link" target="_blank">饭卷君0_0的赛博纸盒</a>
