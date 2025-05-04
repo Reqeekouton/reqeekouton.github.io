@@ -37,7 +37,7 @@ title: 友链
     <img src="https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@main/assets/images/friends/rice0_0.jpg" alt="饭卷君0_0的赛博纸盒" class="friend-logo">
     <div class="friend-info">
         <h3 class="friend-title">
-            <a href="https://mount-rain.link" target="_blank">饭卷君0_0的赛博纸盒</a>
+            <a href="https://osage-sauce.top" target="_blank">饭卷君0_0的赛博纸盒</a>
         </h3>
         <h4 class="friend-subtitle"> 夢の続きを知りたいのかい？（你想知道梦的后续吗？）</h4>
     </div>
@@ -52,7 +52,7 @@ title: 友链
 网站 Logo 或者您的头像：
 网站域名：
 ```
-友链条件请求一般会在72小时内处理。
+友链添加请求一般会在72小时内处理。
 
 添加本站的友链，相关信息如下：
 ```
