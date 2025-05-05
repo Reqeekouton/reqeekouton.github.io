@@ -7,11 +7,11 @@ url: "https://rymingenu.fun"
 # 作者信息
 author:
   name: "任亚墨"
-  email: "public_rymingenu@hotmail.com"
+  email: "rymingenu@outlook.com"
 
 # 社交媒体链接
 social:
-  twitter: "Rymingenu"
+  twitter: "任亚墨"
   github: "Reqeekouton"
 
 # 站点设置
@@ -48,4 +48,4 @@ paginate_path: "/page:num/"
 # 自定义变量
 custom:
   github_repo: "https://github.com/Reqeekouton/reqeekouton.github.io" # GitHub 仓库链接
-  version: "0.0.1-alpha" # 站点或项目的版本号
+  version: "1.0" # 站点或项目的版本号
