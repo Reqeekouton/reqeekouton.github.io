@@ -5,28 +5,24 @@ title: 关于
 
 ### 关于我
 
-**常用昵称：**Yale Max Rymingenu，Reeqeekouton，Reqeekouton，任亚墨
+#### 如何称呼？
 
-**经常活动的地方：**B站，Wikidot
+您可以叫我 Yale Max Rymingenu，Reeqeekouton，Reqeekouton或者是任亚墨，选择一个您喜欢的就好。
 
-**年龄：**~~114岁~~
+#### 简介
 
-**简介：**中国人，现在在广东了，目前正在自学自己感兴趣的东西。
+我是中国人，于广东省长期居住，老家是湖北的。
 
-一般不会经常出门，在家里是经常抱着手机和电脑，出门是去奶茶店或超市，所以看到这里的富哥V我50。
+于各个平台都有活跃，特别是 Wikidot，尽管它不是怎么好用。
 
-### 关于这个地方
+#### 关于这个地方
 
-是用作发布一些作品与……额……设定之类的地方，偶尔会发布一些日常。
+是用作发布一些作品的地方。
 
-主题用的是 [Lanyon](https://github.com/poole/lanyon) 后续可能会继续魔改。
+主题用的是 [Lanyon](https://github.com/poole/lanyon) 的修改，后续可能会继续。
 
-网站字体用的是仿宋、宋体与楷体，别问我为啥这样，问就是习惯了。
-
-### 其他的一些东西
-- 轻文库作者人格：[神仙型写手](https://act.linovel.net/persona2018/#/typeIntro?S=31.58&I=68.42&N=63.64&D=36.36&E=50.14&C=49.86&R=55.51&T=44.49&id=5)
-  - 我写过的优秀作品有多少来着…… (・-・*)
-  - 不过现在更苦恼的是没有任何灵感。 ╮(╯▽╰)╭
-- MBIT：[INTP](https://www.16personalities.com/ch/intp-%E4%BA%BA%E6%A0%BC)
-  - 虽然不知道有什么用处，但还是在朋友的怂恿下测了。 ┑(￣Д ￣)┍
-- 另外也欢迎大家去 [WRITE ON PAPER](https://write-on-paper.wikidot.com/start) 玩玩，申请书一般 48 小时内过。
+#### 联系我
+- 电子邮箱：rymingenu@outlook.com
+- [Wikidot 私信](https://www.wikidot.com/account/messages#/new/8196010)（需要你和我是同一网站成员）
+- Discord：rymingenu
+- 如果你是 [WRITE ON PAPER](https://write-on-paper.wikidot.com) 成员，你可以在QQ群内联系我
