@@ -43,6 +43,16 @@ title: 友链
     </div>
 </div>
 
+<div class="friend-link">
+    <img src="https://cloud.sd.cn/usr/uploads/2025/07/574656472.png" alt="NetCorner" class="friend-logo">
+    <div class="friend-info">
+        <h3 class="friend-title">
+            <a href="https://cloud.sd.cn" target="_blank">Net`Corner</a>
+        </h3>
+        <h4 class="friend-subtitle">长照可怜人，渡此汹涛舸。</h4>
+    </div>
+</div>
+
 ----
 
 如果您想要您的网站加入本页面，请在下面的评论区中提供以下信息：
