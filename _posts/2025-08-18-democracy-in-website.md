@@ -1,9 +1,9 @@
 ---
-title: "网站中的民主"
+title: "谈谈一些问题——我与管理"
 author: "任亚墨"
-date: 2025-08-18
+date: 2025-05-03
 categories: [essays]
-tags: [原创,杂谈,CC BY-NC-SA 4.0]
+tags: [原创, 杂谈,CC BY-NC-SA 4.0]
 layout: post_2
 ---
 
