@@ -1,7 +1,7 @@
 ---
 title: "网站中的民主"
 author: "任亚墨"
-date: 2025-08-17
+date: 2025-08-18
 categories: [essays]
 tags: [原创, 杂谈, CC BY-NC-SA 4.0]
 layout: post_2
