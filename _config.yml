@@ -2,7 +2,7 @@
 title: 任亚墨的书房
 description: 你似乎来过这里……
 baseurl: "" 
-url: "https://rymingenu.fun"
+url: "https://rymingenu.top"
 
 # 作者信息
 author:
@@ -49,3 +49,4 @@ paginate_path: "/page:num/"
 custom:
   github_repo: "https://github.com/Reqeekouton/reqeekouton.github.io" # GitHub 仓库链接
   version: "1.0" # 站点或项目的版本号
+
