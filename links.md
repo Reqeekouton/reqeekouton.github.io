@@ -68,7 +68,7 @@ title: 友链
 ```
 网站名称：任亚墨的书房
 网站简介：你似乎来过这里……
-头像：https://rymingenu.fun/assets/images/rymingenu.png
-网站 Logo（临时）：https://rymingenu.fun/assets/images/rymingenu2.png
-网站域名：rymingenu.fun
+头像：https://rymingenu.top/assets/images/rymingenu.png
+网站 Logo（临时）：https://rymingenu.top/assets/images/rymingenu2.png
+网站域名：rymingenu.top
 ```
